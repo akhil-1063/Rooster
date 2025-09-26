@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    background-color: #F2F1EF ;
+}
+
+.navbar {
+
+    background-color: #495057;
+    text-align: center;
+    padding: 15px;
+    color: #E9ECEF;
+
+}
+
+.container {
+    background-color:#E9ECEF;
+    text-align: center;
+    margin-top: 30px;
+
+
+
+
+}
+
+.footer {
+    background-color: #495057 ;
+    text-align: center;
+    padding-left: 70px;
+    color: #E9ECEF;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: solid  1px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+    vertical-align: top;
+    vertical-align: bottom;
+
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+button {
+    border: none;
+    margin-top: 10px;
+    background-color: #6C757D;
+    border: 2px solid #6C757D;
+    margin-bottom: 10px;
+    ;
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+
+.footer table {
+    text-align: center;
+}
+
+.form-row {
+    padding: 5px;
+    ;
+}
+
+.form-row input {
+    border: solid 1px black;
+    background-color: white;
+    width: 100px;
+
+}
+
+img {
+    padding: 10px;
+     width: 200px;  
+  
+}
+.container-one:hover,.container-two:hover,.container-three:hover,.container-four:hover {
+    background-color: black;
+}
+
+.footer button {
+    width: 300px;
+}
+.container-three h3,
+.container-four h3 {
+    margin-top: 15px;
+
+}
+.container-two p,.container-three p {
+    text-align: center;
+}
+.footer-name input,.footer-age input,.footer-mail input {
+    background-color: none;
+
+    
+}
+
+}
